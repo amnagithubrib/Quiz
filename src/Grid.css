@@ -1,0 +1,97 @@
+.CO {
+  background-color: rgb(245, 245, 245);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  overflow: hidden; 
+  /* Add this property to clear floats */
+}
+
+.circle {
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+/* Remove unnecessary styles for .text7, .h, and .c */
+.io {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 20px;
+  color: #222222;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.pa {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
+  color: #777777;
+}
+
+/* Remove the hover effect as it doesn't seem to be applied */
+
+
+.circle {
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  overflow: hidden; /* Hide overflowing content */
+  position: relative;
+}
+
+
+/* Rest of your styles remain the same */
+
+
+.text7 {
+  margin: auto;
+}
+
+.io {
+  font-Family: Montserrat, sans-serif;
+  font-Style: normal;
+  font-Weight: 500;
+  font-size: 19px;
+  Line-Height: 20px;
+  Color: #222222;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.pa {
+  font-Family: Montserrat, sans-serif;
+  font-Style: normal;
+  font-Weight: 300;
+  font-Size: 19px;
+  Line-Height: 20px;
+  Color: #777777;
+}
+
+.h:hover {
+  color: red;
+}
+
+.c {
+  display: flex;
+  justify-content: flex-end;
+}

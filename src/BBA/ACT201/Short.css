@@ -1,0 +1,42 @@
+/* LongQuestionsPage.css */
+
+.short-questions-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.subject-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.question-item {
+    margin-bottom: 20px;
+}
+
+.question-item strong {
+    display: block;
+    font-size: 20px;
+    color: #e42929; /* Dark red color for questions */
+    margin-bottom: 10px;
+}
+
+.answer {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Add a subtle border to the answers */
+.answer::before {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}

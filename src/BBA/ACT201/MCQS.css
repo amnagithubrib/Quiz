@@ -1,0 +1,91 @@
+/* MCQS.css */
+.mcqs-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .options-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .normal-option {
+    padding: 12px;
+    margin: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .normal-option:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+  }
+  
+  .selected-option {
+    padding: 12px;
+    margin: 8px;
+    background-color: #eb2c2c;
+    color: #fff;
+    border: 1px solid #ec1a1a;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    padding: 12px 24px;
+    background-color: #f02828;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #fa293b;
+    transform: scale(1.02);
+  }
+  
+
+/* Add this style to highlight the correct answer */
+/* Add this style to highlight the correct answer */
+.correct-answer {
+  background-color: #4caf50; /* Green color for correct answer */
+  color: #fff;
+  pointer-events: none; /* Disable pointer events for correct answer, preventing hover effect */
+}
+
+/* Remove the red hover effect for other options */
+.normal-option:not(.correct-answer):hover {
+  background-color: #f0f0f0;
+  transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

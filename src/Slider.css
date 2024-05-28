@@ -1,0 +1,50 @@
+/* Slider.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* Comment or remove this line */
+  /* overflow: hidden; */ /* Comment or remove this line */
+}
+
+.home-page {
+  /* Add styles specific to the home page background here */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  animation: slide 12s infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("./imgs/slid1.avif");
+  }
+  25% {
+    background-image: url("./imgs/slid2.avif");
+  }
+  50% {
+    background-image: url("./imgs/slid3.avif");
+  }
+  75% {
+    background-image: url("./imgs/slid4.avif");
+  }
+  100% {
+    background-image: url("./imgs/slid1.avif");
+  }
+}
+
+.slider-container {
+  position: relative;
+}
+
+.subject-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

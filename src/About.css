@@ -1,0 +1,29 @@
+/* Stylesheet.css */
+
+.i {
+    padding: 50px;
+  }
+  
+  .s {
+    text-align: justify;
+  }
+  
+  .ter {
+    color: rgb(31, 30, 30);
+    /* Blue color, you can change it to your desired color */
+    transition: color 0.3s;
+     /* Add a smooth transition effect */
+  }
+  
+  .ter:hover {
+    color:#ec1010; /* Your desired hover color */;
+  }
+  
+  .imag {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add more styles as needed */

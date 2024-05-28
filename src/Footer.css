@@ -1,0 +1,42 @@
+/* Footer.css */
+
+.footer {
+    background-color: #383132;
+    padding: 30px 0;
+    color: #ebe4e4;
+    margin: 0;
+        /* ... other styles ... */
+    
+}
+
+.footer-col {
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #eff2f5;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth transition for link color */
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ec1010; /* Highlight link color on hover */
+}
+
+/* Add hover effect for all text elements */
+.footer h5:hover,
+.footer p:hover,
+.footer li:hover,
+.footer a:hover {
+    color: #ec1010;
+    text-decoration: underline;
+}
+
+/* Social media icons hover effect */
+.social-icons a:hover {
+    color: #ec1010;
+}
+.social-icons a {
+    margin-right: 10px; /* Add margin to the right of each icon for spacing */
+}
